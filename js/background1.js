@@ -12,7 +12,7 @@ chrome.runtime.onMessage.addListener(
             if (jstext1!=null){
               if(jstext1!=""){
                 jstext1=jstext1.replace(/null/g,'');
-                jstext1=jstext1.replace(/\s*/g,'');  
+                //jstext1=jstext1.replace(/\s*/g,'');  
                 jstext1=jstext1.replace("\"","").replace(/\"$/gi,"");
                 jstext1=jstext1.replace(/\/\/.*?\\r\\n/g,'');
                 jstext1=jstext1.replace(/\\r\\n/g,'');  
