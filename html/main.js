@@ -1,0 +1,1 @@
+window.open(chrome.extension.getURL("html/background.html"));
